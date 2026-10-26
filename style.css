@@ -1,0 +1,238 @@
+/* awal navbar */
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfbf7;
+}
+
+.wrapper {
+    width: 1001px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: #f8f6f5;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: rgb(5, 5, 0);
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(244, 242, 242);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.order {
+    background: #f0960e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* akhir navbar */
+
+/* AWAL BANNER */
+.banner-section {
+    margin: 0px;
+    display: flex;
+    padding: 40px 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #f8cc8a;
+}
+
+.banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kolom {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #121212;
+    flex: 1;
+    padding-right: 40px;
+}
+
+.kolom .deskripsi {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #060700;
+    line-height: 25px;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #f8cc8a;
+    line-height: 60px;
+}
+
+/* pembungkus gambar banner */
+.gambar {
+    margin-top: 20px;
+    width: 480px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(246, 182, 44, 0.7);
+    flex: 1;
+}
+
+.gambar img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 24px;
+}
+
+a.reservasi {
+    background: #f0960e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}
+/* AKHIR BANNER */
+
+/* PILIHAN MENU SECTION */
+.menu-section {
+    padding: 60px 0;
+    background-color: #fdfbf7;
+}
+
+.menu-title {
+    text-align: center;
+    color: #f0960e !important;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.menu-card {
+    background: #f8cc8a;
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.menu-card h3 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 22px;
+    color: #121212;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu-card p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #333333;
+    line-height: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #050500;
+    color: #f4f2f2;
+    padding: 40px 0 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #f0960e;
+}
+
+.footer-col p {
+    font-size: 14px;
+    color: #d1d1d1;
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #888;
+}
